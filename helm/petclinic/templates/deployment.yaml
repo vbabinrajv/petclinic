@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: petclinic-container
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        image: babinraj.azurecr.io/babinraj/petclinic:6
         imagePullPolicy: Always
         resources:
           limits:
