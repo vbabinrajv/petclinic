@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: babinraj/petclinic
-  tag: 4
+  repository: vbabinrajv/petclinic
+  tag: 1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
